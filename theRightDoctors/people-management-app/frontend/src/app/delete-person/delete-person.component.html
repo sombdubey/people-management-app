@@ -1,0 +1,11 @@
+<div>
+    <h2>Delete Person</h2>
+    <p>Are you sure you want to delete the following person?</p>
+    <p>Name: {{ person.name }}</p>
+    <p>Age: {{ person.age }}</p>
+    <p>Gender: {{ person.gender }}</p>
+    <p>Mobile: {{ person.mobile }}</p>
+    <button class="btn btn-danger" (click)="deletePerson()">Delete</button>
+    <button class="btn btn-secondary" (click)="cancel()">Cancel</button>
+  </div>
+  
